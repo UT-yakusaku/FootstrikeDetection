@@ -1,0 +1,21 @@
+paths:
+  config_file: config.yaml
+  dlc_result: "./data/rat_2_DeepLabCut_result.h5"
+  ethogram_result: "./data/rat_2_DeepEthogram_result.h5"
+  bout_percentiles: "./data/ethogram_bout_percentiles.h5"
+  lfp: "./data/rat_2_raw_lfp.npy"
+  trigger: "./data/rat_2_trigger.npy"
+
+extraction:
+  preview:
+    raw_dlc_trace: False
+    dlc_extracted_onset: False
+    ethogram_step_confidence: False
+    ethogram_step_motion: False
+    valid_step: True
+  ethogram:
+    step_confidence: 0.3
+  filter:
+    motion: False
+
+
