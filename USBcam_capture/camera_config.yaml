@@ -1,0 +1,5 @@
+trial_name: "webcam_capture"
+camera_id: 0
+fps: 30
+resolution: [640, 480]
+serial_port: COM4
